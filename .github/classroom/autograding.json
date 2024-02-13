@@ -1,0 +1,24 @@
+{
+  "tests": [
+    {
+      "name": "Uppercase Test",
+      "setup": "",
+      "run": "./bin/shout",
+      "input": "hello",
+      "output": "HELLO",
+      "comparison": "exact",
+      "timeout": 10,
+      "points": 100
+    },
+    {
+      "name": "Python Test",
+      "setup": "",
+      "run": "pytest",
+      "input": "",
+      "output": "",
+      "comparison": "exact",
+      "timeout": 10,
+      "points": 100
+    }
+  ]
+}
